@@ -49,6 +49,10 @@ By participating in this project, you agree to maintain a respectful and inclusi
 ```bash
 cmake -S . -B build
 cmake --build build -j $(nproc)
+
+#or if just is installed on your pc
+
+just
 ```
 
 ## How to Contribute
@@ -74,7 +78,7 @@ We welcome various types of contributions:
 
 ### C++ Style Guidelines
 
-- **Language Standard**: Use C++17 features appropriately
+- **Language Standard**: Use C++20 features appropriately
 - **Naming Conventions**:
   - Classes and structs: `PascalCase` (e.g., `Mass`)
   - Functions and methods: `camelCase` (e.g., `updatePosition()`)
@@ -84,7 +88,7 @@ We welcome various types of contributions:
 
 - **Formatting**:
   - Indentation: 4 spaces (no tabs)
-  - Line length: Maximum 100 characters
+  - Line length: Maximum 120 characters
   - Braces: Opening brace on same line for condition/loop/classes
   and different lines for functions
 
@@ -94,7 +98,7 @@ We welcome various types of contributions:
             void doSomething()
             {
                 if (condition) {
-                // code here
+                    // code here
                 }
             }
   };
