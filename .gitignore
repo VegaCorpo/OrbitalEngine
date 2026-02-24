@@ -5,6 +5,7 @@
 *.slo
 *.lo
 *.o
+*.os
 *.obj
 
 # Precompiled Headers
@@ -39,3 +40,6 @@
 
 # debug information files
 *.dwo
+
+#cache
+.cpm_cache
