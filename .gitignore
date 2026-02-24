@@ -43,6 +43,7 @@
 
 #cache
 .cpm_cache
+.cache
 
 #build
 build
