@@ -37,6 +37,7 @@
 *.exe
 *.out
 *.app
+orbital-engine
 
 # debug information files
 *.dwo
@@ -48,3 +49,4 @@
 #build
 build
 compile_commands.json
+plugins

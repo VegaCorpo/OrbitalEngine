@@ -9,7 +9,7 @@ target_link_libraries(orbital_physics PRIVATE Eigen3::Eigen)
 
 target_include_directories(orbital_physics PRIVATE
     ${CMAKE_SOURCE_DIR}/common/include
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/
+    ${CMAKE_CURRENT_SOURCE_DIR}/
 )
 
 if(WIN32)

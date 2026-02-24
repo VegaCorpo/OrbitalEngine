@@ -20,7 +20,7 @@ add_library(orbital_ui SHARED ${src} ${common_src} ${IMGUI_SOURCES})
 target_include_directories(orbital_ui PRIVATE
     ${imgui_SOURCE_DIR}
     ${CMAKE_SOURCE_DIR}/common/include
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/
+    ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
 if(WIN32)

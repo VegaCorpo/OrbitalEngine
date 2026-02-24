@@ -45,6 +45,6 @@ if (CMAKE_BUILD_TYPE STREQUAL "Asan")
 endif()
 
 add_subdirectory(physics)
-# add_subdirectory(core)
+add_subdirectory(core)
 add_subdirectory(render)
 add_subdirectory(ui)
