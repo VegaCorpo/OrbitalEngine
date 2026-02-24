@@ -5,6 +5,7 @@
 *.slo
 *.lo
 *.o
+*.os
 *.obj
 
 # Precompiled Headers
@@ -36,6 +37,16 @@
 *.exe
 *.out
 *.app
+orbital-engine
 
 # debug information files
 *.dwo
+
+#cache
+.cpm_cache
+.cache
+
+#build
+build
+compile_commands.json
+plugins
