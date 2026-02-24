@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.14)
 
-file(GLOB_RECURSE src "src/*.cpp")
+file(GLOB_RECURSE src "*.cpp")
 file(GLOB_RECURSE common_src "${CMAKE_SOURCE_DIR}/common/src/*.cpp")
 
 add_library(orbital_physics SHARED ${src} ${common_src})
 
-target_link_libraries(orbital_physics PRIVATE Eigen5::Eigen)
+target_link_libraries(orbital_physics PRIVATE Eigen3::Eigen)
 
 target_include_directories(orbital_physics PRIVATE
     ${CMAKE_SOURCE_DIR}/common/include
