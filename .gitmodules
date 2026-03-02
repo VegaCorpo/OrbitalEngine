@@ -1,0 +1,18 @@
+[submodule "Core"]
+	path = Core
+	url = git@github.com:VegaCorpo/Core.git
+[submodule "Physics"]
+	path = Physics
+	url = git@github.com:VegaCorpo/Physics.git
+[submodule "UI"]
+	path = UI
+	url = git@github.com:VegaCorpo/UI.git
+[submodule "Loader"]
+	path = Loader
+	url = git@github.com:VegaCorpo/Loader.git
+[submodule "Inputs"]
+	path = Inputs
+	url = git@github.com:VegaCorpo/Inputs.git
+[submodule "Renderer"]
+	path = Renderer
+	url = git@github.com:VegaCorpo/Renderer.git
