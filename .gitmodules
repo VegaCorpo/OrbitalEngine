@@ -7,3 +7,6 @@
 [submodule "UI"]
 	path = UI
 	url = git@github.com:VegaCorpo/UI.git
+[submodule "Loader"]
+	path = Loader
+	url = git@github.com:VegaCorpo/Loader.git
