@@ -23,9 +23,5 @@
 - [ ] J'ai mis à jour la documentation nécessaire.
 - [ ] Aucun nouvel avertissement (warning) n'est généré.
 
-## Rendu Visuel (UI/UX)
-## Dépendances
-- [ ] Des variables d'environnement (`.env`) doivent être ajoutées/modifiées.
-
 ---
 *Signé : @ton-pseudo*
