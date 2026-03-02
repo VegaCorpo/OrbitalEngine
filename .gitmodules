@@ -13,3 +13,6 @@
 [submodule "Inputs"]
 	path = Inputs
 	url = git@github.com:VegaCorpo/Inputs.git
+[submodule "Renderer"]
+	path = Renderer
+	url = git@github.com:VegaCorpo/Renderer.git
