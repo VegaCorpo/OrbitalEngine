@@ -10,3 +10,6 @@
 [submodule "Loader"]
 	path = Loader
 	url = git@github.com:VegaCorpo/Loader.git
+[submodule "Inputs"]
+	path = Inputs
+	url = git@github.com:VegaCorpo/Inputs.git
