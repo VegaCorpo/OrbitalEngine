@@ -24,6 +24,9 @@ _build type extra='':
     cp {{ OUTDIR }}/Renderer/liborbital_render.* plugins/Renderer
     cp {{ OUTDIR }}/UI/liborbital_ui.* plugins/UI
 
+init:
+    git submodule update --init --recursive
+
 clean:
     rm -rf {{ OUTDIR }}
     rm -rf {{ DEBUG_DIR }}
