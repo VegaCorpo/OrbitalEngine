@@ -1,3 +1,6 @@
 [submodule "Core"]
 	path = Core
 	url = git@github.com:VegaCorpo/Core.git
+[submodule "Physics"]
+	path = Physics
+	url = git@github.com:VegaCorpo/Physics.git
