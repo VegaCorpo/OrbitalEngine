@@ -25,7 +25,6 @@
 
 ## Rendu Visuel (UI/UX)
 ## Dépendances
-- [ ] Cette PR nécessite l'installation de nouveaux paquets (`npm install`, etc.).
 - [ ] Des variables d'environnement (`.env`) doivent être ajoutées/modifiées.
 
 ---
