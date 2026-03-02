@@ -14,15 +14,15 @@ _build type extra='':
     cmake -S . -B {{ OUTDIR }} -DCMAKE_BUILD_TYPE={{ type }} {{extra}}
     cmake --build {{ OUTDIR }} -j {{ num_cpus() }}
 
-    mkdir -p plugins/physics
-    mkdir -p plugins/ui
-    mkdir -p plugins/render
+    mkdir -p plugins/Physics
+    mkdir -p plugins/UI
+    mkdir -p plugins/Renderer
 
     cp {{ OUTDIR }}/compile_commands.json .
-    cp {{ OUTDIR }}/core/orbital-engine .
-    cp {{ OUTDIR }}/physics/liborbital_physics.* plugins/physics
-    cp {{ OUTDIR }}/render/liborbital_render.* plugins/render
-    cp {{ OUTDIR }}/ui/liborbital_ui.* plugins/ui
+    cp {{ OUTDIR }}/Core/orbital-engine .
+    cp {{ OUTDIR }}/Physics/liborbital_physics.* plugins/Physics
+    cp {{ OUTDIR }}/Renderer/liborbital_render.* plugins/Renderer
+    cp {{ OUTDIR }}/UI/liborbital_ui.* plugins/UI
 
 clean:
     rm -rf {{ OUTDIR }}
