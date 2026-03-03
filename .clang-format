@@ -5,6 +5,7 @@ AlignConsecutiveAssignments: false
 AlignConsecutiveDeclarations: false
 AlignOperands: false
 AlignTrailingComments: false
+AllowShortFunctionsOnASingleLine: InlineOnly
 AlwaysBreakTemplateDeclarations: Yes
 BraceWrapping:
   AfterCaseLabel: true
@@ -13,7 +14,7 @@ BraceWrapping:
   AfterEnum: true
   AfterFunction: true
   AfterNamespace: false
-  AfterStruct: true
+  AfterStruct: false
   AfterUnion: true
   AfterExternBlock: false
   BeforeCatch: true
