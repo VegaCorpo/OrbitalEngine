@@ -39,6 +39,7 @@ IncludeIsMainRegex: '([-_](test|unittest))?$'
 IndentAccessModifiers: True
 IndentCaseBlocks: true
 IndentCaseLabels: true
+IndentExternBlock: true
 IndentWidth: 4
 InsertNewlineAtEOF: true
 MacroBlockBegin: ''
