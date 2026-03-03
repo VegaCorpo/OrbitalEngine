@@ -14,24 +14,8 @@ set(CPM_USE_LOCAL_PACKAGES ON)
 
 include(cmake/CPM.cmake)
 CPMUsePackageLock(package-lock.cmake)
-CPMGetPackage("Eigen")
-CPMGetPackage("ImGui")
-
-add_library(imgui_core STATIC
-    ${CPM_PACKAGE_imgui_SOURCE_DIR}/imgui.cpp
-    ${CPM_PACKAGE_imgui_SOURCE_DIR}/imgui_draw.cpp
-    ${CPM_PACKAGE_imgui_SOURCE_DIR}/imgui_tables.cpp
-    ${CPM_PACKAGE_imgui_SOURCE_DIR}/imgui_widgets.cpp
-)
-
-target_include_directories(imgui_core PUBLIC ${CPM_PACKAGE_imgui_SOURCE_DIR})
-
-set_target_properties(imgui_core PROPERTIES POSITION_INDEPENDENT_CODE ON)
 
 if (NOT CMAKE_BUILD_TYPE)
-    if (MSVC)
-    	add_compile_definitions(RAYLIB_CPP_NO_MATH)
-    endif()
     set(CMAKE_BUILD_TYPE "Release")
 endif()
 

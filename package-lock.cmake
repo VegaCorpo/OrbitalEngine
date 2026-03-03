@@ -4,35 +4,3 @@
 #         SYSTEM YES
 #         EXCLUDE_FROM_ALL YES
 # )
-#
-# # raylib
-# CPMDeclarePackage(raylib
-#         GIT_TAG 5.5
-#         GITHUB_REPOSITORY raysan5/raylib
-#         SYSTEM YES
-#         EXCLUDE_FROM_ALL YES
-# )
-# # raylib-cpp
-# CPMDeclarePackage(raylib-cpp
-#         VERSION 5.5.0
-#         GITHUB_REPOSITORY RobLoach/raylib-cpp
-#         SYSTEM YES
-#         EXCLUDE_FROM_ALL YES
-# )
-
-# Eigen
-CPMDeclarePackage(Eigen
-        GIT_TAG 5.0.1
-        GITLAB_REPOSITORY libeigen/eigen
-        SYSTEM YES
-        EXCLUDE_FROM_ALL YES
-)
-
-# Dear Imgui
-CPMDeclarePackage(ImGui
-    GIT_TAG v1.92.6
-    GITHUB_REPOSITORY ocornut/imgui
-    DOWNLOAD_ONLY YES
-    SYSTEM YES
-    EXCLUDE_FROM_ALL YES
-)
