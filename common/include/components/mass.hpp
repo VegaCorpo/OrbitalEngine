@@ -4,6 +4,6 @@ namespace components {
     struct Mass
     {
             float mantissa;
-            int power;
+            int exponent;
     };
 } // namespace components
