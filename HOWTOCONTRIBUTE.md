@@ -82,7 +82,7 @@ We welcome various types of contributions:
 - **Naming Conventions**:
   - Classes and structs: `PascalCase` (e.g., `Mass`)
   - Functions and methods: `camelCase` (e.g., `updatePosition()`)
-  - Variables: `snake_case` (e.g., `gravity_vector`)
+  - Variables: `camelCase` (e.g., `gravityVector`)
   - Constants: `UPPER_SNAKE_CASE` (e.g., `GRAVITATIONAL_CONSTANT`, `DEFAULT_SPEED`)
   - Private members: prefix with `_` (e.g., `_position`, `_velocity`)
 
