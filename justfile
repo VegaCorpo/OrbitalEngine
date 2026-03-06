@@ -33,8 +33,10 @@ clean:
     rm -f orbital-engine
     find . -name "*.so" -type f -delete
     find . -name "*.dll" -type f -delete
+    find . -type d -name "build" -exec rm -rf {} +
 
 purge: clean
-    rm -rf .cpm_cache
+    find . -type d -name ".cache" -exec rm -rf {} +
+    find . -type d -name ".cpm_cache" -exec rm -rf {} +
 
 re: clean release
