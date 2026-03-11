@@ -17,12 +17,14 @@ _build type extra='':
     mkdir -p plugins/Physics
     mkdir -p plugins/UI
     mkdir -p plugins/Renderer
+    mkdir -p plugins/Loader
 
     cp {{ OUTDIR }}/compile_commands.json .
     cp {{ OUTDIR }}/Core/orbital-engine .
     cp {{ OUTDIR }}/Physics/liborbital_physics.* plugins/Physics
     cp {{ OUTDIR }}/Renderer/liborbital_render.* plugins/Renderer
     cp {{ OUTDIR }}/UI/liborbital_ui.* plugins/UI
+    cp {{ OUTDIR }}/Loader/liborbital_loader.* plugins/Loader
 
 init:
     git submodule update --init --recursive
