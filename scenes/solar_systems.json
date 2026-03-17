@@ -1,0 +1,103 @@
+{
+  "entities": [
+    {
+      "name": "sunEntity",
+      "components": {
+        "Mass": { "mantissa": 1.989, "exponent": 30 },
+        "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "Position": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "Velocity": { "x": 0.0, "y": 0.0, "z": 0.0 }
+      }
+    },
+
+    {
+      "name": "mercuryEntity",
+      "components": {
+        "Mass": { "mantissa": 3.30, "exponent": 23 },
+        "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "Position": { "x": 57910000.0, "y": 0.0, "z": 0.0 },
+        "Velocity": { "x": 0.0, "y": 47.87, "z": 0.0 }
+      }
+    },
+
+    {
+      "name": "venusEntity",
+      "components": {
+        "Mass": { "mantissa": 4.87, "exponent": 24 },
+        "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "Position": { "x": 108200000.0, "y": 0.0, "z": 0.0 },
+        "Velocity": { "x": 0.0, "y": 35.02, "z": 0.0 }
+      }
+    },
+
+    {
+      "name": "earthEntity",
+      "components": {
+        "Mass": { "mantissa": 5.97, "exponent": 24 },
+        "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "Position": { "x": 149597870.0, "y": 0.0, "z": 0.0 },
+        "Velocity": { "x": 0.0, "y": 29.78, "z": 0.0 }
+      }
+    },
+
+    {
+      "name": "moonEntity",
+      "components": {
+        "Mass": { "mantissa": 7.35, "exponent": 22 },
+        "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "Position": { "x": 149213470.0, "y": 0.0, "z": 0.0 },
+        "Velocity": { "x": 0.0, "y": 30.80, "z": 0.0 }
+      }
+    },
+
+    {
+      "name": "marsEntity",
+      "components": {
+        "Mass": { "mantissa": 6.42, "exponent": 23 },
+        "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "Position": { "x": 227900000.0, "y": 0.0, "z": 0.0 },
+        "Velocity": { "x": 0.0, "y": 24.07, "z": 0.0 }
+      }
+    },
+
+    {
+      "name": "jupiterEntity",
+      "components": {
+        "Mass": { "mantissa": 1.90, "exponent": 27 },
+        "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "Position": { "x": 778500000.0, "y": 0.0, "z": 0.0 },
+        "Velocity": { "x": 0.0, "y": 13.07, "z": 0.0 }
+      }
+    },
+
+    {
+      "name": "saturnEntity",
+      "components": {
+        "Mass": { "mantissa": 5.68, "exponent": 26 },
+        "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "Position": { "x": 1433000000.0, "y": 0.0, "z": 0.0 },
+        "Velocity": { "x": 0.0, "y": 9.68, "z": 0.0 }
+      }
+    },
+
+    {
+      "name": "uranusEntity",
+      "components": {
+        "Mass": { "mantissa": 8.68, "exponent": 25 },
+        "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "Position": { "x": 2871000000.0, "y": 0.0, "z": 0.0 },
+        "Velocity": { "x": 0.0, "y": 6.80, "z": 0.0 }
+      }
+    },
+
+    {
+      "name": "neptuneEntity",
+      "components": {
+        "Mass": { "mantissa": 1.02, "exponent": 26 },
+        "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "Position": { "x": 4495000000.0, "y": 0.0, "z": 0.0 },
+        "Velocity": { "x": 0.0, "y": 5.43, "z": 0.0 }
+      }
+    }
+  ]
+}
