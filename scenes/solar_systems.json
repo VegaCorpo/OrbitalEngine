@@ -3,100 +3,123 @@
     {
       "name": "sunEntity",
       "components": {
+        "Name": { "value": "Sun" },
         "Mass": { "mantissa": 1.989, "exponent": 30 },
         "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Position": { "x": 0.0, "y": 0.0, "z": 0.0 },
-        "Velocity": { "x": 0.0, "y": 0.0, "z": 0.0 }
+        "Velocity": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "Radius": { "value": 696342.000 },
+        "TextureId": { "id": "Sun" }
       }
     },
 
     {
       "name": "mercuryEntity",
       "components": {
+        "Name": { "value": "Mercury" },
         "Mass": { "mantissa": 3.30, "exponent": 23 },
         "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Position": { "x": 57910000.0, "y": 0.0, "z": 0.0 },
-        "Velocity": { "x": 0.0, "y": 47.87, "z": 0.0 }
+        "Velocity": { "x": 0.0, "y": 47.87, "z": 0.0 },
+        "Radius": { "value": 2439.700 }
       }
     },
 
     {
       "name": "venusEntity",
       "components": {
+        "Name": { "value": "Venus" },
         "Mass": { "mantissa": 4.87, "exponent": 24 },
         "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Position": { "x": 108200000.0, "y": 0.0, "z": 0.0 },
-        "Velocity": { "x": 0.0, "y": 35.02, "z": 0.0 }
+        "Velocity": { "x": 0.0, "y": 35.02, "z": 0.0 },
+        "Radius": { "value": 6051.800 }
       }
     },
 
     {
       "name": "earthEntity",
       "components": {
+        "Name": { "value": "Earth" },
         "Mass": { "mantissa": 5.97, "exponent": 24 },
         "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Position": { "x": 149597870.0, "y": 0.0, "z": 0.0 },
-        "Velocity": { "x": 0.0, "y": 29.78, "z": 0.0 }
+        "Velocity": { "x": 0.0, "y": 29.78, "z": 0.0 },
+        "Radius": { "value": 6378.137 },
+        "TextureId": { "id": "Earth" }
       }
     },
 
     {
       "name": "moonEntity",
       "components": {
+        "Name": { "value": "Moon" },
         "Mass": { "mantissa": 7.35, "exponent": 22 },
         "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Position": { "x": 149213470.0, "y": 0.0, "z": 0.0 },
-        "Velocity": { "x": 0.0, "y": 30.80, "z": 0.0 }
+        "Velocity": { "x": 0.0, "y": 30.80, "z": 0.0 },
+        "Radius": { "value": 1737.400 },
+        "TextureId": { "id": "Moon" }
       }
     },
 
     {
       "name": "marsEntity",
       "components": {
+        "Name": { "value": "Mars" },
         "Mass": { "mantissa": 6.42, "exponent": 23 },
         "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Position": { "x": 227900000.0, "y": 0.0, "z": 0.0 },
-        "Velocity": { "x": 0.0, "y": 24.07, "z": 0.0 }
+        "Velocity": { "x": 0.0, "y": 24.07, "z": 0.0 },
+        "Radius": { "value": 3389.500 }
       }
     },
 
     {
       "name": "jupiterEntity",
       "components": {
+        "Name": { "value": "Jupiter" },
         "Mass": { "mantissa": 1.90, "exponent": 27 },
         "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Position": { "x": 778500000.0, "y": 0.0, "z": 0.0 },
-        "Velocity": { "x": 0.0, "y": 13.07, "z": 0.0 }
+        "Velocity": { "x": 0.0, "y": 13.07, "z": 0.0 },
+        "Radius": { "value": 69911.000 }
       }
     },
 
     {
       "name": "saturnEntity",
       "components": {
+        "Name": { "value": "Saturn" },
         "Mass": { "mantissa": 5.68, "exponent": 26 },
         "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Position": { "x": 1433000000.0, "y": 0.0, "z": 0.0 },
-        "Velocity": { "x": 0.0, "y": 9.68, "z": 0.0 }
+        "Velocity": { "x": 0.0, "y": 9.68, "z": 0.0 },
+        "Radius": { "value": 58232.000 }
       }
     },
 
     {
       "name": "uranusEntity",
       "components": {
+        "Name": { "value": "Uranus" },
         "Mass": { "mantissa": 8.68, "exponent": 25 },
         "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Position": { "x": 2871000000.0, "y": 0.0, "z": 0.0 },
-        "Velocity": { "x": 0.0, "y": 6.80, "z": 0.0 }
+        "Velocity": { "x": 0.0, "y": 6.80, "z": 0.0 },
+        "Radius": { "value": 25362.000 }
       }
     },
 
     {
       "name": "neptuneEntity",
       "components": {
+        "Name": { "value": "Neptune" },
         "Mass": { "mantissa": 1.02, "exponent": 26 },
         "Acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Position": { "x": 4495000000.0, "y": 0.0, "z": 0.0 },
-        "Velocity": { "x": 0.0, "y": 5.43, "z": 0.0 }
+        "Velocity": { "x": 0.0, "y": 5.43, "z": 0.0 },
+        "Radius": { "value": 24622.000 }
       }
     }
   ]
