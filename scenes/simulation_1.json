@@ -9,7 +9,7 @@
         "Position": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Velocity": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Radius": { "value": 696342.000 },
-        "TextureId": { "id": "Sun" }
+        "Texture": { "path": "sun.jpg" }
       }
     },
     {
@@ -21,7 +21,7 @@
         "Position": { "x": 149597870.0, "y": 0.0, "z": 0.0 },
         "Velocity": { "x": 0.0, "y": 29.78, "z": 0.0 },
         "Radius": { "value": 6378.137 },
-        "TextureId": { "id": "Earth" }
+        "Texture": { "path": "earth.jpg" }
       }
     },
     {
@@ -33,7 +33,7 @@
         "Position": { "x": 149213470.0, "y": 0.0, "z": 0.0 },
         "Velocity": { "x": 0.0, "y": 30.80, "z": 0.0 },
         "Radius": { "value": 1737.400 },
-        "TextureId": { "id": "Moon" }
+        "Texture": { "path": "moon.jpg" }
       }
     }
   ]
