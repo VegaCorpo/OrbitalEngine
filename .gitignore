@@ -53,3 +53,6 @@ plugins
 
 #config
 .clangd
+
+#profiling
+*.data*
