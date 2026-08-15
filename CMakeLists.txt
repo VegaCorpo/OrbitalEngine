@@ -38,14 +38,8 @@ endif()
 
 include(ExternalProject)
 
-# Shared so every component reuses the same downloads instead of one cache per
-# sub-build. Must be absolute: the sub-cmake runs from its own binary dir, so a
-# relative path would resolve under build/<Component>/.
 set(ORBITAL_CPM_CACHE "${CMAKE_CURRENT_SOURCE_DIR}/.cpm_cache")
 
-# Toolchain and build settings are forwarded; dependencies are not. Drop
-# CMAKE_CXX_STANDARD here to let each component fall back to the standard
-# declared in its own CMakeLists (Physics 23, Inputs 20).
 set(ORBITAL_FORWARDED_ARGS
     -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}
     -DCMAKE_CXX_COMPILER=${CMAKE_CXX_COMPILER}
@@ -57,8 +51,6 @@ set(ORBITAL_FORWARDED_ARGS
     "-DCMAKE_EXE_LINKER_FLAGS=${CMAKE_EXE_LINKER_FLAGS}"
 )
 
-# BINARY_DIR is kept at build/<Component> so the artifact paths used by the
-# justfile are unchanged.
 function(orbital_component name)
     ExternalProject_Add(${name}
         SOURCE_DIR      ${CMAKE_CURRENT_SOURCE_DIR}/${name}
@@ -73,15 +65,14 @@ function(orbital_component name)
 endfunction()
 
 set(ORBITAL_COMPONENTS Core Physics Loader Inputs)
-# set(ORBITAL_COMPONENTS ${ORBITAL_COMPONENTS} Renderer UI)
+set(ORBITAL_COMPONENTS ${ORBITAL_COMPONENTS} Renderer UI)
 
 foreach(component IN LISTS ORBITAL_COMPONENTS)
     orbital_component(${component})
     list(APPEND ORBITAL_COMPILE_COMMANDS "${CMAKE_BINARY_DIR}/${component}/compile_commands.json")
 endforeach()
 
-# Each component now emits its own compile_commands.json, so the top-level one
-# has to be stitched back together for clangd to see the whole tree.
+# merge compile commands
 add_custom_target(compile_commands ALL
     COMMAND ${CMAKE_COMMAND}
             -DOUT=${CMAKE_BINARY_DIR}/compile_commands.json
