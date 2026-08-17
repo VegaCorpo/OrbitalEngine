@@ -64,7 +64,7 @@ function(orbital_component name)
     )
 endfunction()
 
-set(ORBITAL_COMPONENTS Core Physics Loader Inputs)
+set(ORBITAL_COMPONENTS Core Physics PhysicsRelativity Loader Inputs)
 set(ORBITAL_COMPONENTS ${ORBITAL_COMPONENTS} Renderer UI)
 
 foreach(component IN LISTS ORBITAL_COMPONENTS)
