@@ -26,6 +26,8 @@ _build type extra='':
     cp {{ OUTDIR }}/Loader/liborbital_loader.* plugins/Loader
     cp {{ OUTDIR }}/UI/liborbital_ui.* plugins/UI
 
+dev: (_build "Release" "-DORBITAL_USE_LOCAL_COMMON=ON")
+
 init:
     git submodule update --init --recursive
 
