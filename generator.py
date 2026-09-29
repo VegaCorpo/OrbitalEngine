@@ -14,6 +14,8 @@ def map_generator(num_entities, output_file):
                     "mantissa": round(random.uniform(1.0, 10.0), 2),
                     "exponent": random.randint(20, 30),
                 },
+                "Name": {"value": f"entity_{i}"},
+                "Texture": {"path": "default.png"},
                 "Acceleration": {
                     "x": round(random.uniform(-1.0, 1.0), 2),
                     "y": round(random.uniform(-1.0, 1.0), 2),
