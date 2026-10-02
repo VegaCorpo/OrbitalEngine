@@ -9,7 +9,8 @@
         "Position": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Velocity": { "x": 0.0, "y": 0.0, "z": 0.0 },
         "Radius": { "value": 696342.000 },
-        "Texture": { "path": "sun.jpg" }
+        "Texture": { "path": "sun.jpg" },
+        "Rotation": { "period": 2192832.0, "obliquity": 7.25, "axisAzimuth": 0.0, "initialAngle": 0.0 }
       }
     },
 
@@ -22,7 +23,8 @@
         "Position": { "x": 57910000.0, "y": 0.0, "z": 0.0 },
         "Velocity": { "x": 0.0, "y": 47.87, "z": 0.0 },
         "Radius": { "value": 2439.700 },
-        "Texture": { "path": "mercury.jpg" }
+        "Texture": { "path": "mercury.jpg" },
+        "Rotation": { "period": 5067360.0, "obliquity": 0.034, "axisAzimuth": 0.0, "initialAngle": 0.0 }
       }
     },
 
@@ -35,7 +37,8 @@
         "Position": { "x": 108200000.0, "y": 0.0, "z": 0.0 },
         "Velocity": { "x": 0.0, "y": 35.02, "z": 0.0 },
         "Radius": { "value": 6051.800 },
-        "Texture": { "path": "venus.jpg" }
+        "Texture": { "path": "venus.jpg" },
+        "Rotation": { "period": -20997000.0, "obliquity": 2.64, "axisAzimuth": 0.0, "initialAngle": 0.0 }
       }
     },
 
@@ -48,7 +51,8 @@
         "Position": { "x": 149597870.0, "y": 0.0, "z": 0.0 },
         "Velocity": { "x": 0.0, "y": 29.78, "z": 0.0 },
         "Radius": { "value": 6378.137 },
-        "Texture": { "path": "earth.jpg" }
+        "Texture": { "path": "earth.jpg" },
+        "Rotation": { "period": 86164.1, "obliquity": 23.44, "axisAzimuth": 0.0, "initialAngle": 0.0 }
       }
     },
 
@@ -61,7 +65,8 @@
         "Position": { "x": 149213470.0, "y": 0.0, "z": 0.0 },
         "Velocity": { "x": 0.0, "y": 30.80, "z": 0.0 },
         "Radius": { "value": 1737.400 },
-        "Texture": { "path": "moon.jpg" }
+        "Texture": { "path": "moon.jpg" },
+        "Rotation": { "period": 2360520.0, "obliquity": 6.687, "axisAzimuth": 0.0, "initialAngle": 0.0 }
       }
     },
 
@@ -74,7 +79,8 @@
         "Position": { "x": 227900000.0, "y": 0.0, "z": 0.0 },
         "Velocity": { "x": 0.0, "y": 24.07, "z": 0.0 },
         "Radius": { "value": 3389.500 },
-        "Texture": { "path": "mars.jpg" }
+        "Texture": { "path": "mars.jpg" },
+        "Rotation": { "period": 88642.4, "obliquity": 25.19, "axisAzimuth": 0.0, "initialAngle": 0.0 }
       }
     },
 
@@ -87,7 +93,8 @@
         "Position": { "x": 778500000.0, "y": 0.0, "z": 0.0 },
         "Velocity": { "x": 0.0, "y": 13.07, "z": 0.0 },
         "Radius": { "value": 69911.000 },
-        "Texture": { "path": "jupiter.jpg" }
+        "Texture": { "path": "jupiter.jpg" },
+        "Rotation": { "period": 35730.0, "obliquity": 3.13, "axisAzimuth": 0.0, "initialAngle": 0.0 }
       }
     },
 
@@ -100,7 +107,8 @@
         "Position": { "x": 1433000000.0, "y": 0.0, "z": 0.0 },
         "Velocity": { "x": 0.0, "y": 9.68, "z": 0.0 },
         "Radius": { "value": 58232.000 },
-        "Texture": { "path": "saturn.jpg" }
+        "Texture": { "path": "saturn.jpg" },
+        "Rotation": { "period": 38361.6, "obliquity": 26.73, "axisAzimuth": 0.0, "initialAngle": 0.0 }
       }
     },
 
@@ -113,7 +121,8 @@
         "Position": { "x": 2871000000.0, "y": 0.0, "z": 0.0 },
         "Velocity": { "x": 0.0, "y": 6.80, "z": 0.0 },
         "Radius": { "value": 25362.000 },
-        "Texture": { "path": "uranus.jpg" }
+        "Texture": { "path": "uranus.jpg" },
+        "Rotation": { "period": -62064.0, "obliquity": 82.23, "axisAzimuth": 0.0, "initialAngle": 0.0 }
       }
     },
 
@@ -126,7 +135,8 @@
         "Position": { "x": 4495000000.0, "y": 0.0, "z": 0.0 },
         "Velocity": { "x": 0.0, "y": 5.43, "z": 0.0 },
         "Radius": { "value": 24622.000 },
-        "Texture": { "path": "neptune.jpg" }
+        "Texture": { "path": "neptune.jpg" },
+        "Rotation": { "period": 57996.0, "obliquity": 28.32, "axisAzimuth": 0.0, "initialAngle": 0.0 }
       }
     }
   ]

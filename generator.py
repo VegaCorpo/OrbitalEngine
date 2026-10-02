@@ -2,6 +2,22 @@ import json
 import random
 import argparse
 
+MIN_ROTATION_PERIOD = 3.6e4
+MAX_ROTATION_PERIOD = 2.2e7
+RETROGRADE_PROBABILITY = 0.1
+
+
+def random_rotation():
+    period = random.uniform(MIN_ROTATION_PERIOD, MAX_ROTATION_PERIOD)
+    if random.random() < RETROGRADE_PROBABILITY:
+        period = -period
+    return {
+        "period": round(period, 2),
+        "obliquity": round(random.uniform(0.0, 90.0), 2),
+        "axisAzimuth": round(random.uniform(0.0, 360.0), 2),
+        "initialAngle": round(random.uniform(0.0, 360.0), 2),
+    }
+
 
 def map_generator(num_entities, output_file):
     entities = []
@@ -34,6 +50,7 @@ def map_generator(num_entities, output_file):
                 "Radius": {
                     "value": round(random.uniform(-1000.0, 100000.0), 2),
                 },
+                "Rotation": random_rotation(),
             },
         }
         entities.append(entity)
