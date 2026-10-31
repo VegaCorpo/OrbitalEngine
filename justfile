@@ -18,7 +18,6 @@ _build type extra='':
     mkdir -p plugins/UI
     mkdir -p plugins/Renderer
     mkdir -p plugins/Loader
-    mkdir -p plugins/Inputs
 
     cp {{ OUTDIR }}/compile_commands.json .
     cp {{ OUTDIR }}/Core/orbital-engine .
@@ -26,7 +25,6 @@ _build type extra='':
     cp {{ OUTDIR }}/Renderer/liborbital_render.* plugins/Renderer
     cp {{ OUTDIR }}/Loader/liborbital_loader.* plugins/Loader
     cp {{ OUTDIR }}/UI/liborbital_ui.* plugins/UI
-    cp {{ OUTDIR }}/Inputs/liborbital_inputs.* plugins/Inputs
 
 dev: (_build "Release" "-DORBITAL_USE_LOCAL_COMMON=ON")
 
