@@ -15,7 +15,6 @@ _build type extra='':
     cmake --build {{ OUTDIR }} -j {{ num_cpus() }}
 
     mkdir -p plugins/Physics
-    mkdir -p plugins/PhysicsRelativity
     mkdir -p plugins/UI
     mkdir -p plugins/Renderer
     mkdir -p plugins/Loader
@@ -24,7 +23,6 @@ _build type extra='':
     cp {{ OUTDIR }}/compile_commands.json .
     cp {{ OUTDIR }}/Core/orbital-engine .
     cp {{ OUTDIR }}/Physics/liborbital_physics.* plugins/Physics
-    cp {{ OUTDIR }}/PhysicsRelativity/liborbital_physics_relativity.* plugins/PhysicsRelativity
     cp {{ OUTDIR }}/Renderer/liborbital_render.* plugins/Renderer
     cp {{ OUTDIR }}/Loader/liborbital_loader.* plugins/Loader
     cp {{ OUTDIR }}/UI/liborbital_ui.* plugins/UI
