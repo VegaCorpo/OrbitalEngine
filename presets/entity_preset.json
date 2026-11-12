@@ -1,0 +1,14 @@
+{
+  "presets": [
+    { "label": "Sun",     "mass": { "mantissa": 1.989, "exponent": 30 }, "radius": 696342.000 },
+    { "label": "Mercury", "mass": { "mantissa": 3.30,  "exponent": 23 }, "radius": 2439.700 },
+    { "label": "Venus",   "mass": { "mantissa": 4.87,  "exponent": 24 }, "radius": 6051.800 },
+    { "label": "Earth",   "mass": { "mantissa": 5.97,  "exponent": 24 }, "radius": 6378.137 },
+    { "label": "Moon",    "mass": { "mantissa": 7.35,  "exponent": 22 }, "radius": 1737.400 },
+    { "label": "Mars",    "mass": { "mantissa": 6.42,  "exponent": 23 }, "radius": 3389.500 },
+    { "label": "Jupiter", "mass": { "mantissa": 1.90,  "exponent": 27 }, "radius": 69911.000 },
+    { "label": "Saturn",  "mass": { "mantissa": 5.68,  "exponent": 26 }, "radius": 58232.000 },
+    { "label": "Uranus",  "mass": { "mantissa": 8.68,  "exponent": 25 }, "radius": 25362.000 },
+    { "label": "Neptune", "mass": { "mantissa": 1.02,  "exponent": 26 }, "radius": 24622.000 }
+  ]
+}
